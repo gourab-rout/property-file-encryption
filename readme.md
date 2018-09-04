@@ -17,7 +17,7 @@ Ignore this step if Mule Enterprise Security Module is already available in Anyp
    2. Mule opens the Install wizard. Click the Add  button next to the Work with field.
    
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/MileStone2/Install1.PNG)
-   3. In the Add Repository panel, enter a Name for the repository, such as Anypoint Enterprise Security, and in the Location field, paste the following link:
+   3. In the Add Repository panel, enter a Name for the repository, such as Anypoint Enterprise Security, and in the Location field,   paste the following link:
       http://security-update-site-1.4.s3.amazonaws.com
       then click OK. Then install all the below modules
       
@@ -39,11 +39,12 @@ Ignore this step if Mule Enterprise Security Module is already available in Anyp
       as an unencrypted key-value pair, simply click OK to add the new property to the properties file. Essentially, this produces 
       an unencrypted properties file.However, if you wish to encrypt the properties file (i.e. create a Credentials Vault), click the   
       Encrypt button.
+      
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/Encrypt/Capture3.PNG)
 
    5. Studio opens a Setup encryption information dialog, in which you:
-      Select the type of algorithm you wish to use to encrypt the value
-      Enter the key that Mule requires when asked to decrypt the value 
+      Select the type of algorithm you wish to use to encrypt the value.
+      Enter the key that Mule requires when asked to decrypt the value .
       Click OK to complete the encryption.
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/Encrypt/Capture4.PNG)
      
@@ -53,8 +54,7 @@ Ignore this step if Mule Enterprise Security Module is already available in Anyp
    7. Configure the field values of the global element according to the table below.       
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/Encrypt/Capture6.PNG)
       
-      In CloudHub, the Operations Administrator can enter the runtime.key which can also be made secured by secure.properties
-      in mule-app.properties  ``` secure.properties=runtime.key ```
+      In CloudHub, the Operations Administrator can enter the runtime.key which can also be made secured by the key/value pair in mule-  app.properties  ``` secure.properties=runtime.key ```
       
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/Encrypt/Capture7.PNG)
       
