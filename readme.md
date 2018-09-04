@@ -37,7 +37,8 @@ Ignore this step if Mule Enterprise Security Module is already available in Anyp
    4. Add the key-value pair (property) you wish to record in the properties file. Click Finish. Studio saves the new, 
       blank file in your project and opens a new window in a Properties File Editor window. If you want to save the property
       as an unencrypted key-value pair, simply click OK to add the new property to the properties file. Essentially, this produces 
-      an unencrypted properties file.However, if you wish to encrypt the properties file (i.e. create a Credentials Vault), click the Encrypt button.
+      an unencrypted properties file.However, if you wish to encrypt the properties file (i.e. create a Credentials Vault), click the   
+      Encrypt button.
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/Encrypt/Capture3.PNG)
 
    5. Studio opens a Setup encryption information dialog, in which you:
